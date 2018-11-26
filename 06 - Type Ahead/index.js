@@ -8,7 +8,10 @@ fetch(endpoint)
     .then(resp => resp.json())
     .then(data => cities.push(...data))
 
+// function to find the word that matches within the cities array
 function findMatches(wordToMatch, cities) {
+    console.log(cities);
+    console.log(wordToMatch);
     return cities.filter(place => {
         // here we need to figure out if the city or state matches what was searched
         // regex = regular expression - patterns used to match character combinations in strings 
@@ -18,6 +21,8 @@ function findMatches(wordToMatch, cities) {
         return place.city.match(regex) || place.state.match(regex);
     })
 }
+
+
 
 // create our display function
 // called when someone changes the value for wordToMatch
