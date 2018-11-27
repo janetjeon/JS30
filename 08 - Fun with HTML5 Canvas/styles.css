@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+}
+
+#draw {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid pink;
+}
+
+p {
+  /* z-index: 999; */
+  text-align: center;
+}
