@@ -1,6 +1,6 @@
 # JavaScript 30 Day Challenge
 - Grab the course at <a href="https://JavaScript30.com">https://JavaScript30.com</a>
-- Github: <a href="https://github.com/wesbos">wesbos</aa>
+- Github: <a href="https://github.com/wesbos">wesbos</a>
 
 
 ## Day 4 - Array Cardio Day

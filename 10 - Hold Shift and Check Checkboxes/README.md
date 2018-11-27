@@ -3,7 +3,7 @@
 - Github: <a href="https://github.com/wesbos">wesbos</a>
 
 
-## Day 9 - Dev Tools
+## Day 10 - Hold Shift to Check Multiple Checkboxes
 Devtools and console tricks
 This tutorial outlines some must know dev tool tricks!
 
