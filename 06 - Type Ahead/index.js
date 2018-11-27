@@ -10,8 +10,6 @@ fetch(endpoint)
 
 // function to find the word that matches within the cities array
 function findMatches(wordToMatch, cities) {
-    console.log(cities);
-    console.log(wordToMatch);
     return cities.filter(place => {
         // here we need to figure out if the city or state matches what was searched
         // regex = regular expression - patterns used to match character combinations in strings 
